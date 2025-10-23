@@ -1,0 +1,75 @@
+╔═══════════════════════════════════════════════════════════════╗
+║         DISPATCH OPTIMIZER POC - STARTUP INSTRUCTIONS         ║
+╚═══════════════════════════════════════════════════════════════╝
+
+✅ INSTALLATION COMPLETE!
+
+📋 TO START THE APPLICATION:
+
+1️⃣  OPEN FIRST TERMINAL (for Backend):
+   cd backend
+   npm run dev
+   
+   Wait for: "🚀 Dispatch Optimizer API running on http://localhost:3001"
+
+2️⃣  OPEN SECOND TERMINAL (for Frontend):
+   cd frontend
+   npm run dev
+   
+   Wait for: Vite dev server URL (usually http://localhost:3000)
+
+3️⃣  OPEN BROWSER:
+   Navigate to: http://localhost:3000
+
+═══════════════════════════════════════════════════════════════
+
+🎯 WHAT YOU'LL SEE:
+
+→ Dispatcher Console (Default View)
+  • Left: Unassigned loads list
+  • Center: Fleet map visualization
+  • Right: AI recommendations panel
+
+→ Manager Dashboard (Top Navigation)
+  • KPIs and performance metrics
+  • Charts and trends
+  • Driver leaderboard
+
+═══════════════════════════════════════════════════════════════
+
+📖 QUICK DEMO:
+
+1. Click any load in the left panel
+2. View top 5 AI recommendations on the right
+3. Click "Assign" to manually assign
+4. Or click "Auto-Optimize" for batch processing
+5. Switch to "Manager Dashboard" to view analytics
+
+═══════════════════════════════════════════════════════════════
+
+📚 DOCUMENTATION:
+
+• README.md - Full project documentation
+• QUICKSTART.md - Detailed startup guide
+• PROJECT_SUMMARY.md - Implementation details
+
+═══════════════════════════════════════════════════════════════
+
+💡 TROUBLESHOOTING:
+
+❌ Backend won't start?
+   → Make sure port 3001 is not in use
+   → Check that you're in the backend/ directory
+
+❌ Frontend won't start?
+   → Make sure port 3000 is not in use
+   → Check that you're in the frontend/ directory
+
+❌ No data showing?
+   → Ensure backend started first
+   → Refresh the browser
+
+═══════════════════════════════════════════════════════════════
+
+🎉 ENJOY THE DISPATCH OPTIMIZER POC!
+
